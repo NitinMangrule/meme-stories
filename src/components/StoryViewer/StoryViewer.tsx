@@ -126,7 +126,7 @@ const StoryViewer: React.FC<StoryViewerProps> = ({
                 e.stopPropagation(); // prevent triggering the handleClick on background
                 onClose();
               }}
-              className="absolute top-4 right-4 z-50 text-white bg-black/50 p-2 rounded-full"
+              className="absolute top-4 right-4 z-50 text-white bg-black/50 p-1 rounded-full"
             >
               ×
             </button>
