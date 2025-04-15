@@ -1,0 +1,39 @@
+{
+  "name": "meme-stories",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run -c trashAssetsBeforeRuns=false --headless"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "lucide-react": "^0.488.0",
+    "tailwindcss": "^4.1.4"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "3.10.0",
+    "@eslint/js": "^9.21.0",
+    "@types/node": "^22.14.1",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "cypress": "^14.3.0",
+    "cypress-vite": "^1.6.0",
+    "eslint": "^9.21.0",
+    "eslint-plugin-cypress": "2.12.1",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.6"
+  }
+}
