@@ -148,7 +148,6 @@ const StoryViewer: React.FC<StoryViewerProps> = ({
             <img
               src={story.preview[currentImageIndex]}
               alt="story"
-              loading="lazy"
               onLoad={() => setIsImageLoading(false)}
               onError={() => {
                 setIsImageLoading(false); // fallback case
