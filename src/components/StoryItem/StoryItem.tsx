@@ -12,7 +12,6 @@ const StoryItem: React.FC<StoryItemProps> = ({ preview, onClick }) => {
         <img
           src={preview}
           alt="story preview"
-          loading="lazy"
           className="w-full h-full object-cover rounded-full border-2 border-black"
         />
       </div>
